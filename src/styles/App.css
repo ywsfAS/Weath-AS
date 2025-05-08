@@ -1,0 +1,58 @@
+.App {
+  text-align: center;
+}
+h2{
+  font-weight: 500 !important;
+}
+/* Fonts from GoogleFonts*/
+@font-face {
+  font-family: IBM;
+  src: url("/public/Fonts/IBM/IBMPlexSansArabic-Regular.ttf");
+  font-weight : 500;
+}
+@font-face {
+  font-family: IBM;
+  src: url("/public/Fonts/IBM/IBMPlexSansArabic-ExtraLight.ttf");
+  font-weight: 300;
+}
+@font-face {
+  font-family: IBM;
+  src: url("/public/Fonts/IBM/IBMPlexSansArabic-Light.ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: IBM;
+  src: url("/public/Fonts/IBM/IBMPlexSansArabic-Medium.ttf");
+  font-weight: 600;
+}
+@font-face {
+  font-family: IBM;
+  src: url("/public/Fonts/IBM/IBMPlexSansArabic-SemiBold.ttf");
+  font-weight: 700;
+}
+@font-face {
+  font-family: IBM;
+  src: url("/public/Fonts/IBM/IBMPlexSansArabic-Bold.ttf");
+  font-weight: 800;
+}
+/* New Font for header */
+@font-face {
+  font-family: Pixelify ;
+  src: url("/public/Fonts/Pixelify/PixelifySans-Regular.ttf");
+  font-weight: 500;
+}
+@font-face {
+  font-family: Pixelify;
+  src: url("/public/Fonts/Pixelify/PixelifySans-Medium.ttf");
+  font-weight: 600;
+}
+@font-face {
+  font-family: Pixelify;
+  src: url("/public/Fonts/Pixelify/PixelifySans-SemiBold.ttf");
+  font-weight: 700;
+}
+@font-face {
+  font-family: Pixelify;
+  src: url("/public/Fonts/Pixelify/PixelifySans-Bold.ttf");
+  font-weight: 800;
+}

@@ -1,0 +1,281 @@
+.Container-login {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    font-family: "Montserrat";
+}
+
+.login-box {
+    background-color: white;
+    width: 15%;
+    height: 35%;
+    margin-top: 45px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 21px 5px;
+    position: relative;
+
+
+
+}
+
+.title-login .icon {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.title-login .icon h1 {
+    font-size: 38px;
+}
+
+.title-login .login {
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.356);
+    font-weight: bold;
+}
+
+.login-box .Google {
+    max-width: 93%;
+    border: none;
+    padding: 12px 79px;
+    background-color: white;
+    box-shadow: 2px 2px 4px #b9b9b9;
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #8a8a8a;
+    border: 2px solid #dadada;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+
+
+}
+
+.login-box .or {
+
+    color: #ababab;
+    margin-top: 8%;
+    font-size: 24px;
+
+}
+
+.login-box .or::before,
+.login-box .or::after {
+    content: "";
+    width: 41%;
+    height: 2px;
+    position: absolute;
+    top: 24%;
+    background-color: #ababab;
+
+}
+
+.login-box .or::after {
+    right: 0;
+}
+
+.login-box .or::before {
+    left: 0;
+}
+
+.login-box .Google:hover {
+    background-color: #f5f5f5;
+}
+
+@media (min-width: 600px) and (max-width: 1837px) {
+    .login-box {
+        width: 30%;
+        height: auto;
+        padding: 24px 16px;
+    }
+
+    .title-login .icon h1 {
+        font-size: 32px;
+    }
+
+    .login-box .Google {
+        padding: 12px 24px;
+        font-size: 14px;
+    }
+
+    .login-box .or {
+        font-size: 20px;
+        margin-top: 5%;
+    }
+
+    .login-box .or::before,
+    .login-box .or::after {
+        width: 35%;
+    }
+}
+
+@media (max-width : 1350px) {
+    .login-box {
+        width: 32%;
+        height: auto;
+        padding: 24px 16px;
+    }
+
+    .title-login .icon h1 {
+        font-size: 32px;
+    }
+
+    .login-box .Google {
+        padding: 12px 24px;
+        font-size: 14px;
+    }
+
+    .login-box .or {
+        font-size: 20px;
+        margin-top: 5%;
+    }
+
+    .login-box .or::before,
+    .login-box .or::after {
+        width: 35%;
+    }
+
+
+}
+
+@media (max-width : 800px) {
+    .login-box {
+        width: 75%;
+        height: auto;
+        padding: 24px 10px;
+    }
+
+    .title-login .icon h1 {
+        font-size: 32px;
+    }
+
+    .login-box .Google {
+        padding: 12px 24px;
+        font-size: 14px;
+    }
+
+    .login-box .or {
+        font-size: 20px;
+        margin-top: 5%;
+    }
+
+    .login-box .or::before,
+    .login-box .or::after {
+        width: 35%;
+    }
+
+
+}
+
+.login-box .inputs .Email {
+    display: flex;
+    flex-direction: column;
+    color: black;
+}
+
+.login-box .inputs .Email p {
+    font-size: 15px;
+    font-weight: bold;
+    color: #bababa;
+}
+
+.login-box .inputs input {
+    padding: 10px 50px;
+    padding-left: 10px;
+    border: none;
+    background-color: #eaeaea;
+    border-radius: 4px;
+    outline: none;
+    max-width: 400px;
+}
+
+.login-box .inputs input::placeholder {
+    font-weight: Bold;
+}
+
+.login-box .inputs .Password {
+    display: flex;
+    flex-direction: column;
+    color: black;
+
+}
+
+.login-box .inputs .Password p {
+    font-size: 15px;
+    font-weight: bold;
+    color: #bababa;
+}
+
+.Forget-button {
+    max-width: 93%;
+    border: none;
+    padding: 12px 79px;
+    background-color: rgb(51, 51, 51);
+    box-shadow: 2px 2px 4px #b9b9b9;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-top: 40px;
+
+
+
+}
+
+.Forget-p {
+    color: #989898;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 29px;
+    position: relative;
+
+}
+
+.Forget-p::before {
+    content: "";
+    background-color: rgb(170, 170, 170);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+}
+
+.Forget-button:hover {
+    background-color: rgb(0, 0, 0);
+
+}
+
+.no-account {
+    font-size: 19px;
+    margin-top: 20px;
+    color: #ffffffcc;
+
+}
+
+.create-account {
+    font-size: 19px;
+    font-weight: bold;
+    margin-top: 10px;
+    position: relative;
+}
+
+.create-account::before {
+    content: "";
+    background-color: white;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+}
